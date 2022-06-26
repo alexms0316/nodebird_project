@@ -1,7 +1,7 @@
 const express = require('express');
 const multer = require('multer');
 const path = require('path');
-const fs = requrire('fs');
+const fs = require('fs');
 const { Post, Hashtag } = require('../models');
 const { isLoggedIn } = require('./middlewares');
 
